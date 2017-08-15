@@ -36,7 +36,8 @@ const appRoutes: Routes = [
     PageNotFoundComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [],
   bootstrap: [AppComponent]
