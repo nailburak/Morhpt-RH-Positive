@@ -8,6 +8,7 @@ import { CunsumerComponent } from './cunsumer/cunsumer.component';
 import { AdminComponent } from './admin/admin.component';
 import { CHomeComponent } from './c-home/c-home.component';
 import { AHomeComponent } from './a-home/a-home.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 const appRoutes: Routes = [
   { path: '', component: CunsumerComponent, 
@@ -31,7 +32,8 @@ const appRoutes: Routes = [
     CunsumerComponent,
     AdminComponent,
     CHomeComponent,
-    AHomeComponent
+    AHomeComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule
